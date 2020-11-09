@@ -1,0 +1,14 @@
+
+#container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: solid black;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    box-sizing: border-box;
+    border: solid 1px rgba(75, 75, 75, 0.15);
+}
