@@ -64,6 +64,7 @@ function generateGrid() { //Crea el grid
   const pixelToColor = Array.from(document.querySelectorAll("span")); // Escucha al evento 'mouseover' para cambiar de color
   pixelToColor.forEach( (pixel) => {
     let shade = 0.1;
+    console.log(shade);
     pixel.addEventListener('mouseover', () => {
       pixel.style.background = `rgba(${red}, ${green}, ${blue}, ${shade})`
       shade += 0.1;
